@@ -1,0 +1,245 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    margin:0;
+    font-family:Arial;
+    background-color:burlywood;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+}
+
+h1{
+    color:green;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color:blue;
+}
+h3{
+    color:brown;
+}
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius:15px;
+    
+}
+.obj  p::first-letter{
+    font-size: 80px;
+}
+ul{
+    list-style-type:none;
+
+}
+.benefits ul li::before,.routine ul li::before{
+    content:" ✝ ";
+    color:red;
+}
+ol li{
+    list-style-type:lower-roman;
+}
+.book-card a{
+    text-decoration: none;
+    color:purple;
+    font-size: 20px;
+
+}
+a:hover{
+    color:lawngreen;
+    
+}
+a:active{
+    color:greenyellow;
+}
+.move-to-all a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    outline:2px solid rgba(0, 247, 255, 0.678);
+    background-color: rgba(0, 238, 255, 0.678);
+
+    
+}
+.links a:visited{
+    color:green;
+
+}
+.within a:visited{
+    color:aqua;
+}
+.readbook:hover{
+    transform: translateX(5px);
+}
+img{
+    width:800px;
+    height: 500px;
+    border-radius: 0px;
+    outline: 2px solid violet;
+
+}
+.move-to-all ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:10px;
+}
+.links-within {
+    display: flex;
+    outline:2px solid green;
+    border-radius: 0 100px 100px 0;
+    box-shadow: 2px 2px 45px green;
+    background-color: mediumvioletred;
+    gap:90px;
+}
+.links-within h1{
+    color:black;
+    font-size:100px;
+}
+
+footer{
+    color:blueviolet;
+    font-size:17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    text-align: center;
+    border-color: blueviolet;
+    box-shadow: 2px 2px 50px rgb(226, 43, 134);
+    background-color: lawngreen;
+}
+.moveup{
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+  background-color: #C9A227;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.movedown{
+  position: fixed;
+  top: 2px;
+  right: 2px;
+  background-color: #C9A227;
+  color: white;
+  padding: 0px 0px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.movedown:hover,.moveup:hover{
+    color:blue;
+    background-color: #a3831c;
+    transform: scale(1.5);
+     
+}
+.moveup a,.movedown a{
+    text-decoration: none;
+}
+.logo img{
+    width:120px;
+    height:120px;
+    outline:2px solid blueviolet;
+    border-radius: 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn{
+    margin:20px;
+    font-size:25px;
+    
+}
+.btn:visited{
+    color:rgb(216, 104, 238);
+}
+
+.availability{
+    outline: 2px solid aqua;
+    font-size: 23px;
+    text-decoration: dashed;
+    
+   
+}
+.availability:hover{
+    background-color: blanchedalmond;
+    cursor:pointer;
+   
+}
+.obj{
+    outline: 2px solid khaki;
+    border-radius: 8px;
+    background-color: khaki;
+    box-shadow: 2px 2px 80px khaki;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.book p{
+    border-radius: 12px;
+    border:2px solid navajowhite;
+    background-color: navajowhite;
+    box-shadow: 2px 2px 24px navajowhite;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 20px;
+}
+.links-within img{
+    
+    width:300px;
+    height: 300px;
+    outline:2px solid rgb(238, 180, 32);
+    border-radius: 0px;
+    box-shadow: 2px 2px 80px goldenrod;
+    align-self: flex-end;
+}
+
+.contact-ways {
+    outline: 2px solid navy;
+    border-radius: 0 40px 40px 0;
+    box-shadow: 2px 1px 25px rgb(255, 0, 234);
+    background-color: aquamarine;
+    
+}
+.contact-ways h2{
+    color:purple;
+}
+label{
+    font-size: 19px;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:purple;
+}
+.contact-form button{
+    font-size: 24px;
+}
+.contact-form button:hover{
+    background-color: orchid;
+    cursor: pointer;
+}
+
+.head1{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: magenta;
+}
+
+.head2{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    font-style: normal;
+
+}
+
+
+
