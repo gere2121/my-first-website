@@ -97,7 +97,7 @@ img{
     gap: 20px;
 }
 
-/* 2. Fix the List so it doesn't push the slider out */
+/*  Fix the List so it doesn't push the slider out */
 .within {
     list-style: none;
     padding: 0;
