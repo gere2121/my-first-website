@@ -116,7 +116,7 @@ img{
     box-shadow: 2px 2px 30px goldenrod;
     background-color: mediumvioletred; /* MATCHES the environment exactly */
     margin: 10px auto;
-    box-shadow: none;
+    
 }
 
 /* The Images: Stacking them correctly */
@@ -129,8 +129,10 @@ img{
     left: 0;
     opacity: 0;
     background-color: mediumvioletred; /* Ensures no white space shows around the book */
-    animation: slideFade 16s infinite;
-    outline:2px solid purple;
+    animation: slideFade 128s infinite;
+    outline:none;
+    border:none;
+    box-shadow:none;
 }
 
 /* The Animation: Adjusted so they fade out COMPLETELY */
