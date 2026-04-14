@@ -129,6 +129,9 @@ img{
     opacity: 0;
     background-color: mediumvioletred; /* Ensures no white space shows around the book */
     animation: slideFade 128s infinite;
+    border:none;
+    outline:none;
+    box-shadow:none;
     
 }
 
