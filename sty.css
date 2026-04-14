@@ -129,7 +129,7 @@ img{
     opacity: 0;
     background-color: mediumvioletred; /* Ensures no white space shows around the book */
     animation: slideFade 16s infinite;
-    outline:none;
+    outline:2ps solid purple;
 }
 
 /* The Animation: Adjusted so they fade out COMPLETELY */
