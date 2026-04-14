@@ -195,8 +195,8 @@ footer{
 }
 .links-within img{
     
-    max-width:60%;
-    height: auto;
+    max-width:50%;
+    height: 50%;
     outline:2px solid rgb(238, 180, 32);
     border-radius: 0px;
     box-shadow: 2px 2px 80px goldenrod;
