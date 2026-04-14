@@ -116,6 +116,7 @@ img{
     box-shadow: 2px 2px 30px goldenrod;
     background-color: mediumvioletred; /* MATCHES the environment exactly */
     margin: 10px auto;
+    box-shadow: none;
 }
 
 /* The Images: Stacking them correctly */
