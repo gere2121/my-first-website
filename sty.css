@@ -125,7 +125,7 @@ img{
     top: 0;
     left: 0;
     opacity: 0;
-    animation: slideFade 68s infinite; /* Updated to 16s for 4 images */
+    animation: slideFade 128s infinite; /* Updated to 16s for 4 images */
 }
 
 /* 5. Updated Timing for 4 Images */
@@ -145,13 +145,13 @@ img{
 .slides img:nth-child(14) { animation-delay: 74s; }
 .slides img:nth-child(15) { animation-delay: 80s; }
 .slides img:nth-child(16) { animation-delay: 86s; }
-.slides img:nth-child(17) { animation-delay: 68s; }
-.slides img:nth-child(18) { animation-delay: 68s; }
-.slides img:nth-child(19) { animation-delay: 68s; }
-.slides img:nth-child(20) { animation-delay: 68s; }
-.slides img:nth-child(21) { animation-delay: 68s; }
-.slides img:nth-child(22) { animation-delay: 68s; }
-.slides img:nth-child(23) { animation-delay: 68s; }
+.slides img:nth-child(17) { animation-delay: 92s; }
+.slides img:nth-child(18) { animation-delay: 98s; }
+.slides img:nth-child(19) { animation-delay: 104s; }
+.slides img:nth-child(20) { animation-delay: 110s; }
+.slides img:nth-child(21) { animation-delay: 116s; }
+.slides img:nth-child(22) { animation-delay: 122s; }
+.slides img:nth-child(23) { animation-delay: 128s; }
 
 
 
