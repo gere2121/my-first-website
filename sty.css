@@ -132,8 +132,18 @@ img{
 .slides img:nth-child(1) { animation-delay: 0s; }
 .slides img:nth-child(2) { animation-delay: 4s; }
 .slides img:nth-child(3) { animation-delay: 8s; }
-.slides img:nth-child(4) { animation-delay: 12s; }
-.slides img:nth-child(5) { animation-delay: 16s; }
+.slides img:nth-child(4) { animation-delay: 14s; }
+.slides img:nth-child(5) { animation-delay: 20s; }
+.slides img:nth-child(6) { animation-delay: 26s; }
+.slides img:nth-child(7) { animation-delay: 32s; }
+.slides img:nth-child(8) { animation-delay: 38s; }
+.slides img:nth-child(9) { animation-delay: 44s; }
+.slides img:nth-child(10) { animation-delay: 50s; }
+.slides img:nth-child(11) { animation-delay: 56s; }
+.slides img:nth-child(12) { animation-delay: 62s; }
+.slides img:nth-child(13) { animation-delay: 68s; }
+
+
 
 /* 6. The Animation */
 @keyframes slideFade {
