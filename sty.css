@@ -125,7 +125,7 @@ img{
     top: 0;
     left: 0;
     opacity: 0;
-    animation: slideFade 16s infinite; /* Updated to 16s for 4 images */
+    animation: slideFade 68s infinite; /* Updated to 16s for 4 images */
 }
 
 /* 5. Updated Timing for 4 Images */
