@@ -88,15 +88,23 @@ img{
 }
 .links-within {
     display: flex;
-    outline:2px solid green;
-    border-radius: 0 100px 100px 0;
+    flex-wrap: wrap; /* CRITICAL: This lets items drop to the next line on phones */
+    justify-content: center; /* Centers the content */
+    align-items: center;
+    outline: 2px solid green;
+    border-radius: 0 50px 50px 0; /* Reduced for better mobile look */
     box-shadow: 2px 2px 45px green;
     background-color: mediumvioletred;
-    gap:90px;
+    gap: 20px; /* Smaller gap so things don't push each other out */
+    padding: 20px;
+    width: 95%; /* Makes the box fit the screen width */
+    margin: 10px auto; /* Centers the whole box on the page */
 }
-.links-within h1{
-    color:black;
-    font-size:100px;
+.links-within h1 {
+    color: black;
+    font-size: clamp(30px, 8vw, 80px); /* Smart font: shrinks on mobile, grows on desktop */
+    margin: 0;
+    text-align: center;
 }
 
 footer{
@@ -193,14 +201,14 @@ footer{
     font-style: italic;
     font-size: 20px;
 }
-.links-within img{
-    
-    width:700px;
-    height: 600px;
-    outline:2px solid rgb(238, 180, 32);
-    border-radius: 0px;
+.links-within img {
+    /* We use 'max-width' so it never gets bigger than 700px, 
+       but can shrink to 100% on a phone */
+    max-width: 100%; 
+    width: 500px; 
+    height: auto; /* auto height keeps the image from looking 'squashed' */
+    outline: 2px solid rgb(238, 180, 32);
     box-shadow: 2px 2px 80px goldenrod;
-    align-self: flex-end;
 }
 
 .contact-ways {
