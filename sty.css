@@ -64,7 +64,7 @@ a:active{
     
 }
 .move-to-all a:hover{
-    color:purple;
+    color:red;
 }
 .links a:visited{
     color:green;
