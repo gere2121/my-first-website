@@ -54,7 +54,7 @@ a:hover{
 a:active{
     color:greenyellow;
 }
-.move-to-all a{
+.move-to-all a:link{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-decoration: none;
@@ -63,13 +63,15 @@ a:active{
 
     
 }
-.move-to-all a:hover{
-    color:purple;
-}
+
 .move-to-all a:visited{
     color:green;
 
 }
+.move-to-all a:hover{
+    color:purple;
+}
+
 .within a:visited{
     color:aqua;
 }
